@@ -1,0 +1,48 @@
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2 class="section-title">Projects & Research</h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1: ResMed Inc. -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>ResMed Inc. (NYSE: RMD) Valuation & Analysis</h3>
+                    <span class="project-tag">Equity Research</span>
+                </div>
+                <p class="project-description">
+                    Comprehensive equity research report and financial model analyzing ResMed Inc. Evaluated revenue drivers, competitive position in sleep apnea therapy, and long-term valuation multiples.
+                </p>
+                <div class="project-tech">
+                    <span>DCF Modeling</span>
+                    <span>Financial Statement Analysis</span>
+                    <span>Excel</span>
+                </div>
+                <div class="project-links">
+                    <a href="RMD.v2.pdf" class="btn btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> View Pitch Deck</a>
+                </div>
+            </div>
+
+            <!-- Project 2: JPMorgan Chase & Co. -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>JPMorgan Chase & Co. (NYSE: JPM) Equity Research Pitch</h3>
+                    <span class="project-tag">Equity Research</span>
+                </div>
+                <p class="project-description">
+                    Stock pitch presentation for the Rutgers Student Managed Fund recommending a LONG position with a 3-year price target of $420 (~35% upside). Focused on US bank consolidation, tech scale ($18B+ IT budget), and ROTCE expansion via fee-based revenue.
+                </p>
+                <div class="project-tech">
+                    <span>Bank Valuation</span>
+                    <span>ROTCE Analysis</span>
+                    <span>NII Forecasting</span>
+                    <span>Pitch Deck</span>
+                </div>
+                <div class="project-links">
+                    <a href="JPM.Deck.pdf" class="btn btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> View Pitch Deck</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
