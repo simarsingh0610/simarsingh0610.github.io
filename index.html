@@ -15,6 +15,8 @@
             --text-dark: #1A202C;
             --text-muted: #718096;
             --border: #E2E8F0;
+            --linkedin: #0A66C2;
+            --linkedin-hover: #004182;
         }
 
         * {
@@ -50,7 +52,7 @@
             height: 170px;
             border-radius: 50%;
             object-fit: cover;
-            object-position: 50% 20%; /* Centers face directly within the circular crop */
+            object-position: 50% 20%;
             border: 4px solid #ffffff;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
@@ -63,6 +65,33 @@
         header p {
             font-size: 1.1rem;
             color: #CBD5E0;
+            margin-bottom: 1rem;
+        }
+
+        .header-links {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+        }
+
+        .btn-linkedin {
+            background-color: var(--linkedin);
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+
+        .btn-linkedin:hover {
+            background-color: var(--linkedin-hover);
+            transform: translateY(-2px);
         }
 
         .container {
@@ -222,6 +251,15 @@
             font-size: 0.85rem;
             border-top: 1px solid var(--border);
         }
+
+        footer a {
+            color: var(--linkedin);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -231,7 +269,12 @@
             <img src="professional.headshot.profilepicSimar.jpg" alt="Simar Singh Headshot" class="profile-img">
             <div>
                 <h1>Simar Singh</h1>
-                <p>Rutgers Business School | Finance</p>
+                <p>Rutgers Business School | Finance & Equity Research</p>
+                <div class="header-links">
+                    <a href="https://www.linkedin.com/in/simar-singh0610" target="_blank" class="btn-linkedin">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                </div>
             </div>
         </div>
     </header>
@@ -339,7 +382,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 Simar Singh. All rights reserved.</p>
+        <p>&copy; 2026 Simar Singh | <a href="https://www.linkedin.com/in/simar-singh0610" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Profile</a></p>
     </footer>
 
 </body>
